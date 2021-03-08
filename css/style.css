@@ -1,0 +1,248 @@
+/* .top-banner h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+} */
+
+#logo img {
+    position: absolute;
+    z-index: 1;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+#about-us {
+    padding: 20px;
+}
+
+#about {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+#about p {
+    font-size: 16px;
+}
+
+.top-banner {
+    height: 300px;
+    background: url('../images/Kids-Banar-UP\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: green;
+}
+
+ul li a {
+    color: white!important;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.live {
+    text-align: center;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-video{
+    height: 300px;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top: 2.5rem;
+}
+.card-video iframe{
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.table td {
+    vertical-align: middle;
+}
+
+#contents a {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .live iframe {
+        width: 375px;
+    }
+}
+
+footer {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    margin: 10px;
+    font-size: 30px;
+}
+
+#footer-container {
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+footer h4 {
+    padding-top: 10px;
+}
+
+#youtube {
+    color: red;
+}
+
+#contact strong {
+    font-size: 20px;
+}
+
+#contact i {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+#contact-us #live {
+    height: 600px;
+}
+
+#programs h1 {
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+#programs h1:hover {
+    color: green!important;
+    font-size: 40px;
+}
+
+ul li a:hover {
+    color: black!important;
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+
+#logo img:hover {
+    width: 250px;
+}
+
+.live iframe {
+    border: 10px solid white;
+}
+
+
+.carousel {
+    margin: 0 auto;
+    width:90vw;
+    height:360px;
+    outline: 1rem solid #fff;
+    margin-bottom: 8vh; 
+}
+@media only screen and (max-width:895px){
+    .carousel {
+        width:95vw;
+        height:250px;
+        margin-bottom: 5vh;
+    }
+
+    .mt-10{
+        margin-top: 10rem !important;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .mt2-10{
+        margin-top: 3rem !important;
+    }
+
+    .mt1-10{
+        margin-top: 11rem !important;
+    }
+}
+
+
+.row{
+    margin-top: 0 !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgb(116, 116, 116);
+}
+
+.programs-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.programs-container .programs-container-nav{
+    width: 17rem;
+    background-color: #e0ae18;
+    
+}
+
+.programs-container .programs-container-content{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.programs-container .programs-container-nav .programs-container-nav-item{
+    width: 100%;
+    padding: .8rem .5rem;
+    cursor: pointer;
+}
+
+.programs-container .programs-container-nav .programs-container-nav-item:hover{
+    background-color:#a07b0d;
+}
+
+
+.programs-container .programs-container-nav .programs-container-nav-item .programs-container-nav-item-link{
+    width: 100%;
+    text-decoration: none;
+    padding: .8rem .8rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.programs-container-content .programs-container-content-item{
+    margin: 2rem;
+}
+
+@media only screen and (max-width:823px){
+    .programs-container{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .programs-container .programs-container-nav{
+        width: 100%;
+        background-color: #e0ae18;
+        margin-bottom: 3rem;
+    }
+}
