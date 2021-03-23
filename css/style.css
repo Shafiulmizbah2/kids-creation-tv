@@ -3,8 +3,15 @@
     font-family: 'Poppins', sans-serif;
     color: white;
 } */
+
 body{
     overflow-x: hidden !important;
+}
+
+.cont{
+    max-width: 1250px;
+    margin: 0 auto;
+    position: relative;
 }
 
 #logo img {
@@ -33,12 +40,24 @@ body{
     height: 300px;
     background: url('../images/Kids-Banar-UP\ \(2\).jpg');
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
+    background-position: center;
     background-size: cover;
 }
-
+header{
+    position: relative;
+}
+.navbar-brand{
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    margin-right:0 !important;
+    position: absolute;
+    top: -0.5rem;;
+    left: 0;
+}
 .social-links{
+    position: absolute;
+    right: 0;
+    top: -3rem;
     width: 10rem;
     margin-left: auto;
     display: flex;
@@ -48,7 +67,7 @@ body{
     
 }
 .social-links a{
-    font-size: 1.5rem;
+    font-size: 2rem;
     transition: all .3s;
 }
 .social-links a:hover{
@@ -180,7 +199,7 @@ ul li a:hover {
 
 .carousel {
     margin: 8vh auto;
-    width:90vw;
+    width:97%;
     height:360px;
     outline: 1rem solid #fff;
 }
@@ -218,8 +237,10 @@ ul li a:hover {
 
 .programs-container{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .programs-container .programs-container-nav{
@@ -232,7 +253,6 @@ ul li a:hover {
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    overflow-y: auto;
 }
 
 .programs-container .programs-container-nav .programs-container-nav-item{
@@ -253,7 +273,7 @@ ul li a:hover {
     width: 100%;
     text-decoration: none;
     padding: .8rem .8rem;
-    color: #555;
+    color: #DFDFDF;
     font-size: 1.1rem;
     /* text-align: center; */
 }
@@ -277,9 +297,16 @@ ul li a:hover {
     width: 100%;
 }
 
-@media only screen and (max-width:823px){
+.modal-body iframe{
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (max-width:1007px){
     .programs-container{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100vw;
     }
 
@@ -310,23 +337,9 @@ ul li a:hover {
 }
 
 .vhw{
-    width: 30rem;
-    height: 20rem;
+    width: 17rem;
+    height: 12rem;
     margin: 1rem;
-}
-
-@media only screen and (max-width:500px){
-    .vhw{
-        width: 25rem;
-        height: 15rem;
-    }
-}
-
-@media only screen and (max-width:400px){
-    .vhw{
-        width: 24rem;
-        height: 15rem;
-    }
 }
 
 @media only screen and (max-width:500px){
@@ -337,4 +350,5 @@ ul li a:hover {
         margin-top: 2rem;
     }
 }
+
 
